@@ -1,0 +1,31 @@
+.marginTop {
+    margin-top: 20px;
+    width: 450px;
+    height: 450px;
+    margin-left: 15px;
+    object-fit: contain;
+}
+
+.gapped {
+    gap: 50px;
+}
+
+img {
+    transition: opacity 0.5s ease-in-out; /* Smooth opacity transition */
+  }
+  
+  .commonImg {
+    opacity: 0; /* Initial state, image starts transparent */
+    animation: fadeIn 0.5s ease-in-out forwards; /* Add fade-in animation */
+    cursor: pointer;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1; /* Transition to fully visible */
+    }
+  }
+
+.smoothies {
+    width: 400px;
+}

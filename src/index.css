@@ -1,0 +1,16 @@
+.bgColor {
+    background: linear-gradient(180deg, white, rgb(231, 94, 94));
+    height: 100vh;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
